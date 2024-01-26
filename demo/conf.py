@@ -35,7 +35,7 @@ extensions = [
 ]
 
 
- global options passed to the quizdown library
+ # global options passed to the quizdown library
 quizdown_config = {
     'quizdown_js': 'https://cdn.jsdelivr.net/gh/bonartm/quizdown-js@latest/public/build/quizdown.js', # quizdown javascript
     'start_on_load': True,			# detect and convert all divs with class quizdown
