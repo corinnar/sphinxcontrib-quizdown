@@ -30,21 +30,21 @@ release = '0.3.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-    'sphinxcontrib.quizdown'
-]
+#extensions = [
+#    'sphinxcontrib.quizdown'
+#]
 
 
 # global options passed to the quizdown library
-quizdown_config = {
-    'quizdown_js': 'https://cdn.jsdelivr.net/gh/bonartm/quizdown-js@latest/public/build/quizdown.js', # quizdown javascript
-    'start_on_load': True,			# detect and convert all divs with class quizdown
-    'shuffle_answers': True,		# shuffle answers for each question
-    'shuffle_questions': False,     # shuffle questsions for each quiz
-    'primary_color': '#FF851B',     # primary CSS color
-    'secondary_color': '#DDDDDD',   # secondary CSS color
-    'title_color': 'black'          # text color of the title
-}
+#quizdown_config = {
+#    'quizdown_js': 'https://cdn.jsdelivr.net/gh/bonartm/quizdown-js@latest/public/build/quizdown.js', # quizdown javascript
+#    'start_on_load': True,			# detect and convert all divs with class quizdown
+#    'shuffle_answers': True,		# shuffle answers for each question
+#    'shuffle_questions': False,     # shuffle questsions for each quiz
+#    'primary_color': '#FF851B',     # primary CSS color
+#    'secondary_color': '#DDDDDD',   # secondary CSS color
+#    'title_color': 'black'          # text color of the title
+#}
 
 
 
