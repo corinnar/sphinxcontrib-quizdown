@@ -11,7 +11,7 @@ setup(
     description='Use markdown-like syntax to create interactive quizzes',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/bonartm/sphinxcontrib-quizdown',
+    url='https://github.com/corinnar/sphinxcontrib-quizdown',
     author='Malte Bonart',
     author_email='malte@spiced-academy.com',
     classifiers=[
@@ -36,8 +36,8 @@ setup(
     python_requires='>=3.6, <4',
     install_requires=['sphinx', 'docutils'],
     project_urls={
-        'quizdown-js': 'https://github.com/bonartm/quizdown-js',
+        'quizdown-js': 'https://github.com/corinnar/quizdown-js',
         'Live Editor': 'https://bonartm.github.io/quizdown-live-editor/',
-        'Source': 'https://github.com/bonartm/sphinxcontrib-quizdown',
+        'Source': 'https://github.com/corinnar/sphinxcontrib-quizdown',
     },
 )
